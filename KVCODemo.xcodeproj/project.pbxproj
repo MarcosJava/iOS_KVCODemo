@@ -13,6 +13,8 @@
 		1848777F1FB7D9EE009120D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848777E1FB7D9EE009120D1 /* Assets.xcassets */; };
 		184877821FB7D9EE009120D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184877801FB7D9EE009120D1 /* LaunchScreen.storyboard */; };
 		184877851FB7D9EE009120D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184877841FB7D9EE009120D1 /* main.m */; };
+		1848778E1FB7DE0F009120D1 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848778D1FB7DE0F009120D1 /* Children.m */; };
+		186A59871FB924E900F83B23 /* KVCMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A59861FB924E900F83B23 /* KVCMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		184877811FB7D9EE009120D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184877831FB7D9EE009120D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184877841FB7D9EE009120D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1848778C1FB7DE0F009120D1 /* Children.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		1848778D1FB7DE0F009120D1 /* Children.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		186A59851FB924E900F83B23 /* KVCMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCMutableArray.h; sourceTree = "<group>"; };
+		186A59861FB924E900F83B23 /* KVCMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		184877741FB7D9EE009120D1 /* KVCODemo */ = {
 			isa = PBXGroup;
 			children = (
+				186A59841FB924CA00F83B23 /* Util */,
+				1848778B1FB7DDE3009120D1 /* Models */,
 				184877751FB7D9EE009120D1 /* AppDelegate.h */,
 				184877761FB7D9EE009120D1 /* AppDelegate.m */,
 				184877781FB7D9EE009120D1 /* ViewController.h */,
@@ -69,6 +77,24 @@
 				184877841FB7D9EE009120D1 /* main.m */,
 			);
 			path = KVCODemo;
+			sourceTree = "<group>";
+		};
+		1848778B1FB7DDE3009120D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1848778C1FB7DE0F009120D1 /* Children.h */,
+				1848778D1FB7DE0F009120D1 /* Children.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		186A59841FB924CA00F83B23 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				186A59851FB924E900F83B23 /* KVCMutableArray.h */,
+				186A59861FB924E900F83B23 /* KVCMutableArray.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186A59871FB924E900F83B23 /* KVCMutableArray.m in Sources */,
 				1848777A1FB7D9EE009120D1 /* ViewController.m in Sources */,
 				184877851FB7D9EE009120D1 /* main.m in Sources */,
+				1848778E1FB7DE0F009120D1 /* Children.m in Sources */,
 				184877771FB7D9EE009120D1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
